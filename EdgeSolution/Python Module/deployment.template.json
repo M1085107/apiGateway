@@ -12,7 +12,7 @@
             "registryCredentials": {
               "apigatewayproxy": {
                 "username": "apiGatewayProxy",
-                "password": "lsSvZ+edqHw0od86tAJm6bvewUrE9TWa",
+                "password": "gkW4AjVPuV4wrPFu1TcVZUEiJOdJr+ne",
                 "address": "apigatewayproxy.azurecr.io"
               }
             }
