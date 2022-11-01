@@ -11,8 +11,8 @@
             "loggingOptions": "",
             "registryCredentials": {
               "apigatewayproxy": {
-                "username": "$CONTAINER_REGISTRY_USERNAME_apigatewayproxy",
-                "password": "$CONTAINER_REGISTRY_PASSWORD_apigatewayproxy",
+                "username": "apiGatewayProxy",
+                "password": "lsSvZ+edqHw0od86tAJm6bvewUrE9TWa",
                 "address": "apigatewayproxy.azurecr.io"
               }
             }
