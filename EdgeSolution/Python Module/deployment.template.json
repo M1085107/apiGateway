@@ -37,17 +37,17 @@
                   "PortBindings": {
                     "5671/tcp": [
                       {
-                        "HostPort": "5671"
+                        "HostPort": 5671
                       }
                     ],
                     "8883/tcp": [
                       {
-                        "HostPort": "8883"
+                        "HostPort": 8883
                       }
                     ],
                     "443/tcp": [
                       {
-                        "HostPort": "443"
+                        "HostPort": 443
                       }
                     ]
                   }
@@ -63,7 +63,7 @@
             "status": "running",
             "restartPolicy": "always",
             "settings": {
-              "image": "${MODULES.PythonModule}",
+              "image": "apigatewayproxy.azurecr.io/gatewayedge:test",
               "createOptions": {}
             }
           }
