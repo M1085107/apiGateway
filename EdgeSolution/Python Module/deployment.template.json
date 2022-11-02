@@ -63,7 +63,7 @@
             "status": "running",
             "restartPolicy": "always",
             "settings": {
-              "image": "${modules.PythonModule}",
+              "image": "${MODULES.PythonModule}",
               "createOptions": {}
             }
           }
@@ -82,9 +82,9 @@
       }
     },
     "PythonModule": {
-      "properties.desired":{
-          "TemperatureThreshold":25
+      "properties.desired": {
+        "TemperatureThreshold": 25
       }
-  }
+    }
   }
 }
