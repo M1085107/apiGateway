@@ -63,7 +63,7 @@
             "status": "running",
             "restartPolicy": "always",
             "settings": {
-              "image": "${MODULES.PythonModule}",
+              "image": "apigatewayproxy.azurecr.io/gatewayedge:test",
               "createOptions": {}
             }
           }
